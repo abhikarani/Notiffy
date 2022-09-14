@@ -48,7 +48,52 @@ export default function Sidebar() {
             </ul>
 
             <button className='sidebarButton'>Show more</button>
-            <hr className='sidebarhr'/>
+            <hr className='sidebarHr'/>
+            <ul className='sidebarFriendList'>
+                <li className='sidebarFriend'>
+                    <img className='sidebarFriendImg' src={"/assets/cow.png"} alt=""/>
+                    <span className='sidebarFriendName'>Friend 1</span>
+                </li>
+
+                <li className='sidebarFriend'>
+                    <img className='sidebarFriendImg' src={"/assets/cow.png"} alt=""/>
+                    <span className='sidebarFriendName'>Friend 2</span>
+                </li>
+                <li className='sidebarFriend'>
+                    <img className='sidebarFriendImg' src={"/assets/cow.png"} alt=""/>
+                    <span className='sidebarFriendName'>Friend 3</span>
+                </li>
+
+                <li className='sidebarFriend'>
+                    <img className='sidebarFriendImg' src={"/assets/cow.png"} alt=""/>
+                    <span className='sidebarFriendName'>Friend 4</span>
+                </li>
+
+                <li className='sidebarFriend'>
+                    <img className='sidebarFriendImg' src={"/assets/cow.png"} alt=""/>
+                    <span className='sidebarFriendName'>Friend 5</span>
+                </li>
+
+                <li className='sidebarFriend'>
+                    <img className='sidebarFriendImg' src={"/assets/cow.png"} alt=""/>
+                    <span className='sidebarFriendName'>Friend 6</span>
+                </li>
+
+                <li className='sidebarFriend'>
+                    <img className='sidebarFriendImg' src={"/assets/cow.png"} alt=""/>
+                    <span className='sidebarFriendName'>Friend 7</span>
+                </li>
+
+                <li className='sidebarFriend'>
+                    <img className='sidebarFriendImg' src={"/assets/cow.png"} alt=""/>
+                    <span className='sidebarFriendName'>Friend 8</span>
+                </li>
+
+                <li className='sidebarFriend'>
+                    <img className='sidebarFriendImg' src={"/assets/cow.png"} alt=""/>
+                    <span className='sidebarFriendName'>Friend 9</span>
+                </li>                
+            </ul>
         </div>
     </div>
   )
