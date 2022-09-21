@@ -8,7 +8,7 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 export default function TopBar() {
     return (
         <div className='topBarContainer'>
-            <img src={'assets/logopingit.png'} alt='' className="AppLogo" />
+            <img src={'assets/notiffy.png'} alt='' className="AppLogo" />
             <div className='topBarLeft'>
                 <span className='logo'>Notiffy</span>
             </div>

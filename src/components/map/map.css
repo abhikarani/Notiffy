@@ -1,0 +1,9 @@
+.mymap{
+    width: 400px;
+    height: 300px;
+    margin-top: 30px;
+    -webkit-box-shadow:0px 0px 16px -8px rgba(0,0,0,0.68); 
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    margin-right: 10px;
+    border-style: hidden;
+}

@@ -1,0 +1,27 @@
+
+
+.loginPage{
+    display: block;
+    align-items: center;
+}
+.loginpageText{
+    width: 100%;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.loginpageSignIn{
+    padding: 20px;
+    width:300px;
+    text-align: center;
+    align-items: center;
+    display:grid;
+}
+
+.loginpageUserNameInput{
+    align-items: center;
+    color: white;
+
+}
