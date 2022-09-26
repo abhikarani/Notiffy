@@ -6,6 +6,7 @@
    align-items: center;
    position: sticky;
    top: 0;
+   z-index: 999;
 }
 
 .topBarLeft{
@@ -82,20 +83,19 @@
 }
 
 .topBarIconBadge{
-    background-color: red;
+    background-color: rgb(255, 0, 187);
     border-radius: 50%;
-    width: 15px;
+    width: 10px;
     height: 10px;
     color: white;
-    position: absolute;
-    top:-5px;
-    right:-5px;
+    position:absolute;
+    top:-3px;
+    right:2px;
     align-items: center;
     justify-content: center;
     display: flex;
     font-size: 2px;
     font-weight: bold;
-
 }
 
 

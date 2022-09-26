@@ -1,28 +1,23 @@
 import React from 'react'
 import Maps from '../map/Map'
 import "./rightbar.css"
-// import { GoogleMap, useLoadScript} from "@react-google-maps/api";
-
-// function Map(){
-//  return <GoogleMap mapContainerClassName='flatuhaiyeh' zoom = {10} center = {{lat:44, lng: -80}}></GoogleMap>
-// }
-
+import { Users } from '../../dummydata'
+import OnlineFriends from '../onlinefriends/OnlineFriends'
 export default function Rightbar() {
-    // const { isLoaded } = useLoadScript({
-    //   googleMapsApiKey:"AIzaSyDm5dYQPGBuIgpmo5CQAt_rGj4Vz6oHzfw",
-    // });
-
-    // if(!isLoaded) return <div>Loading...</div>;
-
 
     return (
     <>
-    {/* <div className='rightbar'>
-      <div className='rightbartext'>where your friends at</div>
-    </div> */}
-    <Maps>
-    
-    </Maps>
+    <div className='rightbar'>
+      <div className ='rightbarText'> find your friends</div>
+      <Maps />
+      <hr className='onlineFriendsLine' />
+      <span className='onlineText'>currently online</span>
+       {Users.filter(u=>u.status==="online").map(u=>(
+       <OnlineFriends key = {u.id} user = {u}/>
+       ))}
+    </div>
   </>
   )
 }
+//Users.filter(u=>u.status==="online").map(u=>(<Users key = {u.id} user = {u}/>))
+//.filter(u=>u.status==="online")

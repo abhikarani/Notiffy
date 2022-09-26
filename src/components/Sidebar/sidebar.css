@@ -3,6 +3,8 @@
     height: calc(100vh - 50px);
     font-weight: bolder;
     overflow-y: scroll;
+    position: sticky;
+    top: 50px;
 }
 
 .sidebarIcon{

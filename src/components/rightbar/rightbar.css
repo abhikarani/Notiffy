@@ -1,4 +1,26 @@
 .rightbar{
     flex: 3;
+    overflow-y: scroll;
+    position: sticky
 }
+
+.rightbarText{
+    padding-top:30px;
+    padding-left:150px;
+    font-weight: 300;
+}
+
+.onlineText{
+    margin-left: 150px;
+    font-weight: bolder;
+}
+
+.onlineFriendsLine{
+    margin: 10px;
+}
+
+
+
+
+
 

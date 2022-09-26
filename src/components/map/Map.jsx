@@ -3,7 +3,7 @@ import "./map.css"
 import { GoogleMap, useLoadScript} from "@react-google-maps/api";
 
 function Map(){
- return <GoogleMap mapContainerClassName='mymap' zoom = {10} center = {{lat:44, lng: -80}}></GoogleMap>
+ return <GoogleMap mapContainerClassName='mymap' zoom = {10} center = {{lat:44, lng: -80}} options = {{disableDefaultUI: true}}></GoogleMap>
 }
 
 export default function Maps() {
@@ -13,9 +13,6 @@ export default function Maps() {
 
     if(!isLoaded) return <div>Loading...</div>;
     return (
-    <>
-    {/* <div className='rightbartext'>where your friends at</div> */}
-    <Map/>
-  </>
+    <Map />
   )
 }
